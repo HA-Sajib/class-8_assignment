@@ -84,6 +84,13 @@ total_subject(50,60,70,80);
 <!-- Assignment - 4 -->
 <h3>Assignment - 4</h3>
 <?php  
+function my_age($year){
+    $carrent_year = date('Y');
+    $year_result = $carrent_year-$year;
+    return $year_result;
+}
+echo my_age(2001);
+
 
 ?>
 <!-- Assignment - 5 -->
